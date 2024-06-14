@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form-pdf{
+  border: 1px solid black;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="file"]{
+  box-shadow: 3px 3px 8px black;
+  /* border: 1px solid black; */
+}
+
+input[type="submit"]{
+  padding: 5px 20px;
+  /* margin: auto;  */
+  width: fit-content;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+
+.response-data > p{
+  display: flex;
+  flex-direction: column;
+}
