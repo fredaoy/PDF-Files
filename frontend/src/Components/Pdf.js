@@ -42,6 +42,7 @@ const Pdf = () => {
 
   return (
     <div className="form-pdf">
+      <div className="container-form">
       <form onSubmit={submitPdf}>
         <h1>Upload file PDF !</h1>
         <input
@@ -57,6 +58,7 @@ const Pdf = () => {
         />
         <input type="submit" value="Send file" />
       </form>
+      </div>
 
       {responseData && (
         <div className="response-data">
